@@ -45,5 +45,45 @@ var road = {
 
 road.accidents();
 
-//Accessor Method
+
+//Number function
+
+var time = function(arrivalTime){
+    do {(arrivalTime = 5)
+
+    }
+    while (arrivalTime ==  7 - 1  );
+        return "too early";
+     
+};
+
+timeOfArrival = time(6);
+console.log("I arrived to work " + timeOfArrival);
+
+//String function
+
+var coffee = function([arrivedEarly, haveCoffee]){
+    return ["I arrived early to work," + " let's have some coffee!"];
+    
+};
+
+makeCoffee = coffee(arriveEarly + haveCoffee);
+console.log("Today, " + makeCoffee);
+
+//Array function
+
+var clockIn = [1];
+
+var startWorking = function(clockIn){
+    for (var i = 0; i < clockIn; i++){
+       console.log("It's 7:00 am ");  
+    }
+    
+};
+
+currentTime = startWorking(0);
+console.log("It's not 7:00 am yet, let me not clock in");
+
+
+
 
